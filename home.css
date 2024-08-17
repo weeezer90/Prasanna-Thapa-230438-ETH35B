@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    background-color: #c9d7e4; /* Light gray background */
+    color: #111f3c; /* Dark gray text */
+    font-family: 'Inter', sans-serif; /* Modern sans-serif font */
+}
+
+a {
+    color: #ed8936; /* Orange links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dd6b20; /* Darker orange on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    padding: 0 1rem; /* Small padding on the sides */
+}
+
+/* Header Styles */
+header {
+    background-color: #1e0404; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem; /* Padding for the header */
+}
+
+header a {
+    font-size: 1.25rem; /* Slightly larger text for the logo */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #ed8936; /* Orange color */
+}
+
+header nav a {
+    margin-left: 1.5rem; /* Space between nav items */
+    font-size: 1rem; /* Normal font size */
+}
+
+/* Mobile Menu Button */
+header button {
+    display: none; /* Hide the button by default */
+}
+
+/* Hero Section */
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.bg-cover {
+    background-position: center;
+    background-size: cover;
+    height: 24rem; /* Fixed height for the hero section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.bg-cover h1 {
+    font-size: 3rem; /* Large headline */
+    font-weight: bold;
+    margin-bottom: 1rem; /* Spacing below the headline */
+}
+
+section.bg-cover p {
+    font-size: 1.25rem; /* Slightly larger paragraph */
+    margin-bottom: 2rem; /* More space below the paragraph */
+}
+
+section.bg-cover a {
+    padding: 0.75rem 2rem; /* Padding for the button */
+    background-color: #ed8936; /* Orange button */
+    color: #ffffff; /* White text */
+    border-radius: 9999px; /* Fully rounded button */
+    transition: background-color 0.3s ease;
+}
+
+section.bg-cover a:hover {
+    background-color: #dd6b20; /* Darker orange on hover */
+}
+
+/* Main Content */
+main {
+    padding: 3rem 1.5rem; /* Padding for the main content */
+}
+
+/* Features Section */
+section.text-center h2 {
+    font-size: 2rem; /* Larger headline */
+    font-weight: bold;
+    margin-bottom: 1.5rem; /* Spacing below the headline */
+}
+
+section.text-center .grid {
+    display: grid;
+    gap: 2rem; /* Space between grid items */
+}
+
+section.text-center .grid div {
+    background-color: #ffffff; /* White background */
+    padding: 2rem; /* Padding inside each feature */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Featured Blogs Section */
+section .grid-cols-1 {
+    display: grid;
+    gap: 1.5rem; /* Space between grid items */
+}
+
+section .grid-cols-1 div {
+    background-color: #ffffff; /* White background */
+    border-radius: 0.5rem; /* Rounded corners */
+    overflow: hidden; /* Cut off overflowing content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+section .grid-cols-1 img {
+    width: 100%;
+    height: 12rem; /* Fixed height for images */
+    object-fit: cover; /* Cover the container */
+}
+
+section .grid-cols-1 div h3 {
+    font-size: 1.25rem; /* Slightly larger title */
+    font-weight: bold;
+    margin-bottom: 1rem; /* Spacing below the title */
+}
+
+section .grid-cols-1 div p {
+    margin-bottom: 1.5rem; /* Spacing below the paragraph */
+}
+
+section .grid-cols-1 div a {
+    color: #ed8936; /* Orange link */
+    font-weight: bold; /* Bold link */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2d3748; /* Dark gray background */
+    color: #ffffff; /* White text */
+    padding: 1.5rem 0; /* Padding for the footer */
+}
+
+footer p {
+    margin: 0; /* Remove margin */
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tribe</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <!-- Logo -->
+            <a href="gallery.html" class="text-2xl font-bold text-orange-500">Travel Tribe</a> <!-- Redirect to Gallery -->
+            <!-- Navigation -->
+            <nav class="hidden md:flex space-x-6 text-lg">
+                <a href="gallery.html" class="hover:text-orange-500">Home</a> <!-- Redirect Home to Gallery -->
+                <a href="gallery.html" class="hover:text-orange-500">Gallery</a> <!-- Redirect Gallery to Home -->
+                <a href="about.html" class="hover:text-orange-500">About</a>
+                <a href="login.html" class="hover:text-orange-500">Login</a> <!-- Redirect Login to Home-->
+                <a href="signup.html" class="hover:text-orange-500">Signup</a> 
+            </nav>
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden text-gray-800 focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-96 flex items-center justify-center" style="background-image: url('woods.png');">
+        <div class="text-center text-white">
+            <h1 class="text-5xl font-bold mb-4">TRAVEL. EXPLORE. LIVE</h1>
+            <p class="text-xl mb-8">This is a world travel blog featuring beautiful destinations, new experiences, and hidden places around the globe.</p>
+            <a href="#" class="px-8 py-3 bg-orange-500 text-white rounded-full hover:bg-orange-600">Tag Along</a>
+        </div>
+    </section>
+
+    <!-- Featured Blogs Section -->
+    <section>
+        <h2 class="text-3xl font-bold text-center mb-6">Featured Blogs</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Blog 1 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                <img src="rhinoo.png" alt="Blog Image" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Travel Blog</h3>
+                </div>
+            </div>
+            <!-- Blog 2 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                <img src="venice.png" alt="Blog Image" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Travel Destinations</h3>
+                </div>
+            </div>
+            <!-- Blog 3 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                <img src="about.png" alt="Blog Image" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">About</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto text-center text-white">
+            <p>© 2024 Blogger. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
